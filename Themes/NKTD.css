@@ -1,0 +1,524 @@
+/* General Styles */
+body,
+.bodyTab,
+.tabHeaderContainer {
+    background-color: #121212 !important;
+}
+
+#loginContainer,
+.sideItemList,
+#sideMenuContainer,
+.subMenuWell {
+    background-color: #1e1e1e !important;
+}
+
+#mainBody {
+    background: #121212 !important;
+}
+
+#sideMenu a {
+    font-size: 100% !important;
+}
+
+#sideMenu a:active {
+    background-color: #1e1e1e !important;
+}
+
+#sideMenu a.selected {
+    color: #1e90ff !important;
+}
+
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=number],
+input[type=email],
+input[type=search],
+select,
+textarea,
+.popupTrigger {
+    background-color: #2c2c2c !important;
+    border: 1px solid #333 !important;
+    color: #ddd !important;
+}
+
+input[type="checkbox"]:checked + span {
+    background-color: #2c2c2c !important;
+    border: 1px solid #333 !important;
+}
+
+input[type="checkbox"]:checked + span::after {
+    content: " " !important;
+    left: 20px !important;
+    background-color: #1e90ff !important;
+    transition: all 0.3s ease !important;
+}
+
+input.searchBox {
+    background-color: transparent !important;
+}
+
+.settingsGroup .groupBody .settingContainer {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.wizardTab {
+    background-color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.wizardTab .wizardContents {
+    background-color: #121212 !important;
+}
+
+.wizardTab .wizardContents h2 {
+    background-color: #333 !important;
+}
+
+.scheduleTriggerInfo {
+    border: 1px solid #333 !important;
+    background-color: #1e1e1e !important;
+}
+
+.splitViewInfo.splitViewInfo {
+    background-color: #121212 !important;
+}
+
+.btn {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    padding: 10px 15px !important;
+    border-radius: 6px !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.btn:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.btn:active {
+    background: #1a7dd6 !important;
+    transform: scale(0.98) !important;
+}
+
+.bgGreen {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+.bgRed {
+    background: #ff6347 !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+.bgAmber {
+    background: #ffbf00 !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+.bgInfo {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+button {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+button:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.button {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.button:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+#sleepButton {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+#helpButton {
+    background: #ffbf00 !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+/* Login Styles */
+#loginContainer {
+    opacity: 1 !important;
+}
+
+#loginLogo img {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.1)) !important;
+}
+
+#loginWelcome {
+    color: #1e90ff !important;
+}
+
+#loginForm {
+    opacity: 1 !important;
+}
+
+#loginForm label {
+    color: #ddd !important;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+    background-color: #2c2c2c !important;
+    border: 1px solid #333 !important;
+    color: #ddd !important;
+}
+
+#loginForm .checkbox input[type="checkbox"] + span {
+    background-color: #2c2c2c !important;
+    border: 1px solid #333 !important;
+}
+
+#loginButton,
+.secureLoginButton {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border-radius: 6px !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+#loginButton:hover,
+.secureLoginButton:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+#loginButton:active,
+.secureLoginButton:active {
+    background: #1a7dd6 !important;
+    transform: scale(0.98) !important;
+}
+
+#loginFailureReason {
+    margin-top: 5px !important;
+    color: #ff6347 !important;
+}
+
+.loginBusy {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(18, 18, 18, 0.75) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    margin: 0 !important;
+}
+
+
+/* Server Status Styles */
+.metricsHeader h2 {
+    color: #e0e0e0 !important;
+}
+
+.AppStatus {
+    background-color: #1e90ff !important;
+    color: #ddd !important;
+    padding: 10px 15px !important;
+    border-radius: 6px !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.DisplayMetric {
+    border-color: #333 !important;
+}
+
+.DisplayMetricHeader {
+    background-color: #333 !important;
+    color: #ddd !important;
+}
+
+.DisplayMetricGraph {
+    background-color: #1e1e1e !important;
+}
+
+#statusActions h2 {
+    color: #ddd !important;
+}
+
+.buttonGroup .bgGreen {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.buttonGroup .bgAmber {
+    background: #ffbf00 !important;
+    color: #ddd !important;
+}
+
+.buttonGroup .bgRed {
+    background: #ff6347 !important;
+    color: #ddd !important;
+}
+
+.buttonGroup .bgInfo {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.slideIcon {
+    background: #1e90ff !important;
+    color: #ddd !important;
+    border: none !important;
+}
+
+.slimButton {
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.slimButton:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+/* Server Console Styles */
+.consoleHeader .iconButtonGroup .bgGreen {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.consoleHeader .iconButtonGroup .bgAmber {
+    background: #ffbf00 !important;
+    color: #ddd !important;
+}
+
+.consoleHeader .iconButtonGroup .bgRed {
+    background: #ff6347 !important;
+    color: #ddd !important;
+}
+
+.consoleHeader .AppStatus {
+    background-color: #1e90ff !important;
+    color: #ddd !important;
+}
+
+#consoleContainer {
+    background-color: #1e1e1e !important;
+}
+
+#consoleLine input {
+    background-color: #2c2c2c !important;
+    border: 1px solid #333 !important;
+    color: #ddd !important;
+}
+
+.consoleName {
+    color: #1e90ff !important;
+}
+
+/* Instances Toolbar Styles */
+
+.instanceViewToolbar {
+    display: none !important;
+}
+
+.instanceViewToolbar .iconButton {
+    background: #1e1e1e !important;
+    color: #ddd !important;
+    border: 1px solid #333 !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.instanceViewToolbar .iconButton.toggled {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.instanceViewToolbar .iconButton:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.instanceViewToolbar .iconButton:active {
+    background: #1a7dd6 !important;
+    transform: scale(0.98) !important;
+}
+
+/* Instances Servers Styles */
+
+.ServerGroup.Online .ServerGroupHeader {
+    background-color: #2c2c2c !important;
+}
+
+.ServerGroup.Online {
+    background-color: #2c2c2c !important;
+    border-color: #333 !important;
+}
+
+
+.ServerGroupContainer {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.ServerGroupHeader {
+    color: #e0e0e0 !important;
+    padding: 10px !important;
+    border-radius: 6px !important;
+}
+
+.ServerEntry {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.InstanceList {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.InstanceList .ServerEntry {
+    height: 220px !important;
+    cursor: default !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryInfo button {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 16px !important;
+    padding: 7px 15px !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryInfo button:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.ServerEntry:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.ServerEntry:active {
+    background: #1a7dd6 !important;
+    transform: scale(0.98) !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryTop .ServerEntryHeader {
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding: 8px 16px !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryTop .ServerEntryHeader h3, .InstanceList .ServerEntry .ServerEntryTop .ServerEntryHeader h5 {
+    margin: 0 !important;
+}
+
+.ServerEntryHeader h3,
+.ServerEntryHeader h5 {
+    color: #e0e0e0 !important;
+}
+
+.ServerEntryStatus {
+    background-color: #1e90ff !important;
+    color: #ddd !important;
+    padding: 5px 10px !important;
+    border-radius: 6px !important;
+}
+
+.ServerEntryActions .iconButton {
+    background: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #333 !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.ServerEntryActions .iconButton:hover {
+    background: #1c86ee !important;
+    transform: scale(1.02) !important;
+}
+
+.ServerEntryActions .iconButton:active {
+    background: #1a7dd6 !important;
+    transform: scale(0.98) !important;
+}
+
+.ServerEntryActions .bgGreen {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.ServerEntryActions .bgRed {
+    background: #ff6347 !important;
+    color: #ddd !important;
+}
+
+.ServerEntryActions .bgAmber {
+    background: #ffbf00 !important;
+    color: #ddd !important;
+}
+
+.ServerEntryActions .bgInfo {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
+
+.ServerEntryMetrics {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    margin-bottom: 5px !important;
+    border-radius: 8px !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryMetrics {
+    display: flex !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryMetrics .ServerEntryMetric {
+    display: flex !important;
+    flex-grow: 1 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 4px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryMetrics .ServerEntryMetric .mat-icon {
+    font-size: 26px !important;
+    margin-right: 8px !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryInfo h2, .InstanceList .ServerEntry .ServerEntryInfo h4 {
+    margin: 0 0 2px !important;
+}
+
+/* File Manager Styles */
+
+.fileManagerEntry.selected {
+    background: #1e90ff !important;
+    color: #ddd !important;
+}
