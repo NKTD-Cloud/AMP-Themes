@@ -1,3 +1,5 @@
+![NKTDCLOUD Logo](https://github.com/NKTD-Cloud/.github/blob/main/images/logo.png)
+
 # AMP-Themes
 
 Benutzerdefinierte AMP-Themes und zugehörige Dateien für NKTDCLOUD.
