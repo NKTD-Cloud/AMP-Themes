@@ -22,16 +22,6 @@ To install a custom theme:
 
 - **NKTD.css**: The primary theme for NKTDCLOUD's AMP interface.
 
-## Contributing
-
-We welcome contributions to improve our themes and add new ones. To contribute:
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
