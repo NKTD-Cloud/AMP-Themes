@@ -1,25 +1,27 @@
+![NKTDCLOUD Logo](https://github.com/NKTD-Cloud/.github/blob/main/images/logo.png)
+
 # AMP-Themes
 
-Benutzerdefinierte AMP-Themes und zugehörige Dateien für NKTDCLOUD.
+Custom AMP themes and related files for NKTDCLOUD.
 
-## Einführung
+## Introduction
 
-Dieses Repository enthält benutzerdefinierte Themes und andere relevante Dateien für das AMP (Application Management Panel), das von NKTDCLOUD verwendet wird. Diese Themes sind darauf ausgelegt, das Erscheinungsbild und die Funktionalität von AMP für unsere Organisation zu verbessern.
+This repository contains custom themes and other relevant files for the AMP (Application Management Panel) used by NKTDCLOUD. These themes are designed to enhance the appearance and functionality of AMP for our organization.
 
 ## Installation
 
-Um ein benutzerdefiniertes Theme zu installieren:
+To install a custom theme:
 
-1. Lade die gewünschte Theme-Datei aus diesem Repository herunter.
-2. Platziere die Theme-Datei im Verzeichnis `WebRoot/Themes` deiner ADS01-Instanz. Du kannst dies über den Dateimanager im Browser tun.
-3. Aktualisiere deine AMP-Seite.
-4. Wechsle zu deinem neuen Theme, indem du im Suchfeld oben rechts nach 'Theme' suchst.
-5. Führe eine Cache-Bereinigung der Seite durch (Strg+F5), um das Theme anzuwenden.
+1. Download the desired theme file from this repository.
+2. Place the theme file in the `WebRoot/Themes` directory of your ADS01 instance. You can do this using the File Manager in the browser.
+3. Refresh your AMP page.
+4. Change to your new theme by searching for ‘Theme’ in the top-right search box.
+5. Perform a cache clear refresh of the page (Ctrl+F5) to apply the theme.
 
-## Verfügbare Themes
+## Available Themes
 
-- **NKTD.css**: Das Haupt-Theme für die AMP-Oberfläche von NKTDCLOUD.
+- **NKTD.css**: The primary theme for NKTDCLOUD's AMP interface.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE](LICENSE)-Datei für Details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
