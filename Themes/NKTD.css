@@ -227,7 +227,6 @@ button:hover {
     width: 100% !important;
     height: 100% !important;
     background: rgba(18, 18, 18, 0.75) !important;
-    display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
